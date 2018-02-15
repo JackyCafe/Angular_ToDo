@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app ="todoApp">
+  <head>
+ <Title> to do</Title>
+ <script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+ <script >
+	var todoApp = angular.module("todoApp",[]);
+ </script>
+
+
+ </head>
+ <body>
+  <div class = "page-header">Jacky list</div>
+  <div class='panel'>
+  		<div class ='input-group'>
+  			<input class = 'form-control' />
+  			<div class="input-group-btn">
+  				<button class='btn btn-default'>Add</button>
+  				
+  			</div>
+  		</div>	
+
+  		<table class="table table-striped">
+  			<thead>
+  				<tr>
+  					<td>描述</td>
+  					<td>完成</td>
+  				</tr>
+  			</thead>
+  			<tbody>
+  				<tr>
+  					<td>採收機操作規範</td>
+  					<td>完成</td>
+  				</tr>
+  				<tr>
+  					<td>採收機操作訓練計畫</td>
+  					<td>規劃中</td>
+  				</tr>
+  			</tbody>
+  		</table>
+
+ </div>
+  
+ </body>
+</html>
